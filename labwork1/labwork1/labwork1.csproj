@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/b6b04ea4-a499-483e-9da7-23a33dad70e5/resourcegroups/labwork1ResourceGroup/providers/microsoft.insights/components/labwork1</ApplicationInsightsResourceId>
+    <UserSecretsId>18d5e936-a4c6-41f1-b9b9-9669c65de3fc</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
+
+</Project>
